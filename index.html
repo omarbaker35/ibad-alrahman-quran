@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b5138" />
+  <meta name="description" content="منصة مدرسة عباد الرحمن لتحفيظ القرآن الكريم وتجويده: تسجيلات الأجزاء، مواد PDF، ومتابعة الحفظ." />
+  <title>مدرسة عباد الرحمن | تحفيظ القرآن وتجويده</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">تخطي إلى المحتوى</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#/home" aria-label="العودة للصفحة الرئيسية">
+        <span class="brand-mark" aria-hidden="true">۞</span>
+        <span>
+          <strong>مدرسة عباد الرحمن</strong>
+          <small>لتحفيظ القرآن الكريم وتجويده</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">فتح القائمة</span>
+      </button>
+
+      <div class="nav-links" id="mainNav">
+        <a href="#/home" data-nav="home">الرئيسية</a>
+        <a href="#/recordings" data-nav="recordings">التسجيلات</a>
+        <a href="#/materials" data-nav="materials">المواد</a>
+        <a href="#/progress" data-nav="progress">متابعة الحفظ</a>
+        <a href="#/admin" data-nav="admin">الإدارة</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="app" class="app-shell" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p>﴿وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا﴾</p>
+    <small>تصميم تعليمي لخدمة القرآن الكريم — يعمل بدون Python أو قواعد بيانات خارجية.</small>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="العودة للأعلى">↑</button>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "مدرسة عباد الرحمن لتحفيظ القرآن الكريم وتجويده",
+  "short_name": "عباد الرحمن",
+  "description": "منصة تسجيلات تجويد القرآن ومواد PDF ومتابعة حفظ.",
+  "start_url": "./index.html#/home",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#f6f1e7",
+  "theme_color": "#0b5138",
+  "icons": []
+}
